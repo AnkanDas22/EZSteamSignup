@@ -7,6 +7,6 @@ Just download ALL the files and run the application from dist\ezsteamsignup\ezst
 
 Type in the non-Chrome Python application window to easily make new Steam accounts!
 
-After you're done, ALL the details of the created Steam accounts, i.e., Username, E-Mail Address and Password will be stored in a file called "steamaccountlist.txt" in Documents folder.
+After you're done, ALL the details of the created Steam accounts, i.e., Username, E-Mail Address and Password will be stored in a file called "steamaccountlist.txt" in C:/ local disk.
 
 Contact me @RektAlter or ankandas2222@gmail.com for any queries regarding this project.
