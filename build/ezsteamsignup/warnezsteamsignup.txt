@@ -1,0 +1,23 @@
+missing module named resource - imported by posix, F:\ez-steam-signup\ezsteamsignup.py
+missing module named posix - imported by os, F:\ez-steam-signup\ezsteamsignup.py
+missing module named _posixsubprocess - imported by subprocess, F:\ez-steam-signup\ezsteamsignup.py
+missing module named org - imported by pickle, F:\ez-steam-signup\ezsteamsignup.py
+missing module named readline - imported by cmd, code, pdb, F:\ez-steam-signup\ezsteamsignup.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, F:\ez-steam-signup\ezsteamsignup.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, F:\ez-steam-signup\ezsteamsignup.py
+missing module named _winreg - imported by platform, selenium.webdriver.firefox.firefox_binary, F:\ez-steam-signup\ezsteamsignup.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, F:\ez-steam-signup\ezsteamsignup.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, F:\ez-steam-signup\ezsteamsignup.py
+missing module named vms_lib - imported by platform, F:\ez-steam-signup\ezsteamsignup.py
+missing module named termios - imported by tty, getpass, F:\ez-steam-signup\ezsteamsignup.py
+missing module named grp - imported by shutil, tarfile, F:\ez-steam-signup\ezsteamsignup.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, F:\ez-steam-signup\ezsteamsignup.py
+missing module named _dummy_threading - imported by dummy_threading, F:\ez-steam-signup\ezsteamsignup.py
+missing module named 'org.python' - imported by copy, xml.sax, F:\ez-steam-signup\ezsteamsignup.py
+missing module named urllib2 - imported by selenium.webdriver.common.utils, selenium.webdriver.remote.remote_connection, selenium.webdriver.common.service
+missing module named StringIO - imported by selenium.webdriver.remote.webelement
+missing module named urlparse - imported by selenium.webdriver.remote.remote_connection
+missing module named httplib - imported by selenium.webdriver.firefox.webdriver, selenium.webdriver.remote.remote_connection, selenium.webdriver.safari.webdriver, selenium.webdriver.blackberry.webdriver, selenium.webdriver.webkitgtk.webdriver
+missing module named cStringIO - imported by selenium.webdriver.firefox.firefox_profile
+missing module named copy_reg - imported by cStringIO
