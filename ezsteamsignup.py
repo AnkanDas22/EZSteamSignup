@@ -7,15 +7,6 @@ print("================Created by Ankan Das from UEM, Kolkata out of no reason==
 while(k=='True'):
     driver.set_page_load_timeout(40)
     driver.get("https://store.steampowered.com/join/?")
-    h=input("Do you want to enter your own username or get a randomized one?\nPress 1 or Yes or Y->OWN USERNAME, ANYTHING ELSE->RANDOMIZED USERNAME\n");
-    if(h=='1' or h.upper()=='YES' or h.upper()=='Y'):
-        a=input("Enter your username\n")
-    else:
-        a=''.join(choice(ascii_lowercase+digits) for i in range(10))
-    driver.find_element_by_name("accountname").send_keys(a)
-    b=''.join(choice(ascii_lowercase+digits+ascii_uppercase) for i in range(12))
-    driver.find_element_by_name("password").send_keys(b)
-    driver.find_element_by_name("reenter_password").send_keys(b)
     x=input("Input 1 or Yes or Y->OWN EMAIL ADDRESS\nANYTHING ELSE-Automated Email Address\n")
     if(x=="1" or x.upper()=='YES' or x.upper()=='Y'):
         c=input("Enter the email address that you want to register with: \n")
@@ -42,12 +33,8 @@ while(k=='True'):
             break
     driver.find_element_by_name("i_agree_check").click()
     driver.find_element_by_id("createAccountButton").click()
-    print("USERNAME: %s\n"%a)
-    print("PASSWORD: %s\n"%b)
     print("EMAIL ID: %s\n"%c)
     with open("steamaccountlist.txt","a+") as fp: #change the file location for saving the account details
-        fp.write("USERNAME: %s\r\n"%a)
-        fp.write("PASSWORD: %s\r\n"%b)
         fp.write("EMAIL ID: %s\r\n"%c)
         fp.write("\n")
     t=input("Wanna create more accounts?\n1 or Yes or Y->YES!\nANYTHING ELSE->NO!\n")
@@ -56,3 +43,4 @@ while(k=='True'):
     else:
         k='False'
 driver.quit()
+
